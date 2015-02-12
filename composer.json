@@ -1,0 +1,17 @@
+{
+    "name": "cyddateformat/cyddateformat",
+    "description": "Change The format of date",
+    "keywords": ["date format","format","date","transform date","modify date"],
+    "authors": [
+        {
+            "name": "Cyd Dalupan",
+            "email": "cydmdalupan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "cdf": "/"
+        }
+    }
+}
