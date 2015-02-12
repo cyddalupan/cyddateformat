@@ -1,4 +1,4 @@
-<?php namespace cyddateformat
+<?php namespace cyddateformat;
 
 class cdf{
 	//use for facebook date to sql datetime
