@@ -1,6 +1,6 @@
-<?php namespace cyddateformat;
+<?php namespace cyddateformat
 
-class cdf{
+class Cdf{
 	//use for facebook date to sql datetime
 	//from 10/08/1990 to 1990-08-10
 	function convert_date_dmy_2_ymd($mdate){
