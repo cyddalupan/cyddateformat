@@ -2,6 +2,7 @@
     "name": "cyddateformat/cyddateformat",
     "description": "Change The format of date",
     "keywords": ["date format","format","date","transform date","modify date"],
+    "version" : "1.0.0",
     "authors": [
         {
             "name": "Cyd Dalupan",
@@ -11,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "cyddateformat\\": "src/"
+            "datemodify\\": "src/"
         }
     }
 }
