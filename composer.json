@@ -10,8 +10,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "cyddateformat": "src"
+        "psr-4": {
+            "cyddateformat\\": "src/"
         }
     }
 }
