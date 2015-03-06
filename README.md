@@ -1,13 +1,13 @@
 # cyddateformat
 Converts, date format
 
-#first add namespace on top
+##first add namespace on top
 use datemodify\Cdf;
 
 #use for facebook date to sql datetime
 $result = Cdf::convert_date_dmy_2_ymd($date_to_convert);
 
-#sample
+##sample
 
 use datemodify\Cdf;
 
@@ -18,4 +18,12 @@ $result = Cdf::convert_date_dmy_2_ymd($date_to_convert);
 
 echo $result;
 
-#more conversion soon...
+###or
+
+$date_to_convert = "10/08/1990";
+
+$result = Cdf::convert_date_mdy_2_ymd($date_to_convert);
+
+echo $result;
+
+##more conversion soon...
